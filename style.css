@@ -1,0 +1,156 @@
+body {
+    background-color: #16161E;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: #16161E;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px; 
+
+}
+
+.menu-button:hover {
+    background-color: white;
+    color: #16161E;
+}
+
+.head2 {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.david {
+    width: 75px;
+    height: 75px;
+}
+
+.starting {
+    display: flex;
+    margin-left: 100px;
+}
+
+.trade-button, .lesson-button {
+    background-color: #16161E;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.trade-button:hover, .lesson-button:hover {
+    background-color: white;
+    color: #16161E;
+}
+
+.join {
+    margin-left: 125px;
+}
+
+.stat {
+    display: flex;
+    margin-left: 75px;
+}
+
+.stat-box {
+    background-color: #16161E;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    text-align: center;
+    }
+    .m-b-study {
+        color: white;
+        text-decoration: none;
+    }
+    .language {
+        margin-left: 700px;
+        font-size: 22px;
+    }
+    footer {
+        background-color: #20202c;
+        color: #e0e0e0;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .footer-section {
+        flex: 1;
+        margin: 10px;
+        min-width: 200px;
+    }
+    
+    .footer-section h4 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .footer-section p, .footer-section a {
+        color: #e0e0e0;
+        margin: 5px 0;
+        text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+        color: #00bfff;
+    }
+    
+    .footer-section ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer-section ul li {
+        margin: 5px 0;
+    }
+    
+    .footer-section ul li a {
+        color: #e0e0e0;
+        text-decoration: none;
+    }
+    
+    .footer-section ul li a:hover {
+        color: #00bfff;
+    }
+    @media (max-width: 600px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .footer-section {
+            margin: 20px 0;
+        }
+    }
+    .language {
+        margin-left: 700px;
+        font-size: 22px;
+    }
